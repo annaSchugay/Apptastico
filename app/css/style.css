@@ -171,3 +171,51 @@ main {
       main .block_info a:focus, main .block_info a:hover {
         color: #fff;
         text-decoration: none; }
+  main .slide {
+    margin-top: 109px; }
+    main .slide h2 {
+      font-size: 16pt;
+      padding-top: 3px;
+      letter-spacing: -0.5px;
+      margin-bottom: 20px; }
+      main .slide h2 i {
+        display: block;
+        float: left;
+        margin-right: 8px;
+        margin-top: -3px; }
+    main .slide .owl-item {
+      width: 245px; }
+      main .slide .owl-item .item {
+        text-align: center; }
+        main .slide .owl-item .item img {
+          text-align: center; }
+    main .slide .owl-controls .owl-prev, main .slide .owl-controls .owl-next {
+      position: absolute;
+      top: 62px;
+      width: 38px;
+      height: 38px;
+      -webkit-border-radius: 30px;
+              border-radius: 30px;
+      border: 1px solid #c1c8cc; }
+    main .slide .owl-controls .owl-prev {
+      background: url(../img/icons/arrow_left.png) no-repeat 10px 8px, -webkit-radial-gradient(circle, #eaedf0, #e0e2e3);
+      background: url(../img/icons/arrow_left.png) no-repeat 10px 8px, radial-gradient(circle, #eaedf0, #e0e2e3);
+      left: -72px; }
+    main .slide .owl-controls .owl-next {
+      background: url(../img/icons/arrow_right.png) no-repeat 14px 8px, -webkit-radial-gradient(circle, #eaedf0, #e0e2e3);
+      background: url(../img/icons/arrow_right.png) no-repeat 14px 8px, radial-gradient(circle, #eaedf0, #e0e2e3);
+      right: -70px; }
+    main .slide .carousel-control {
+      background: -webkit-radial-gradient(circle, #eaedf0, #e0e2e3);
+      background: radial-gradient(circle, #eaedf0, #e0e2e3);
+      margin-top: 107px; }
+      main .slide .carousel-control.left {
+        margin-left: 38px; }
+        main .slide .carousel-control.left span {
+          display: block;
+          margin: 7px 11px; }
+      main .slide .carousel-control.right {
+        margin-right: 38px; }
+        main .slide .carousel-control.right span {
+          display: block;
+          margin: 7px 13px; }

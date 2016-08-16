@@ -48,7 +48,21 @@
 	}
 	header .header_icons ul li:nth-child(4) {
 		margin-right: 12%; 
-	} 
+	}
+
+	/*.owl-carousel .owl-wrapper-outer {
+    width: 88%;
+    left: 42px;
+  }*/
+}
+
+@media (max-width: 865px) {
+	main .slide .owl-controls	.owl-prev {
+		left: -15px;
+	}
+	main .slide .owl-controls .owl-next {
+    right: -14px;
+  }
 }
 
 @media (max-width: 740px) {
