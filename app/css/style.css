@@ -13,33 +13,25 @@ ul:after,
 li:after {
   clear: both; }
 
-header {
+body {
   font-family: Arial; }
-  header .header {
-    background: url(../img/bg.png); }
-    header .header .top_header {
-      padding-top: 43px; }
-      header .header .top_header ul {
-        margin-top: 6px;
-        float: right; }
-        header .header .top_header ul li {
-          margin-right: 17.9px; }
-          header .header .top_header ul li:last-child {
-            margin-right: -12px; }
-        header .header .top_header ul.nav li a {
-          color: #fff;
-          font-size: 11pt;
-          padding: 5px 16px; }
-          header .header .top_header ul.nav li a:active, header .header .top_header ul.nav li a:hover, header .header .top_header ul.nav li a:focus {
-            background: -webkit-gradient(linear, left bottom, left top, from(#445058), to(#384249));
-            background: -webkit-linear-gradient(bottom, #445058, #384249);
-            background: linear-gradient(to top, #445058, #384249);
-            -webkit-border-radius: 30px;
-                    border-radius: 30px;
-            border-top: 1px solid #343d43;
-            border-bottom: 1px solid #66727b; }
-        header .header .top_header ul.nav-pills li.active a {
-          background-color: inherit;
+
+header .header {
+  background: url(../img/bg.png); }
+  header .header .top_header {
+    padding-top: 43px; }
+    header .header .top_header ul {
+      margin-top: 6px;
+      float: right; }
+      header .header .top_header ul li {
+        margin-right: 17.9px; }
+        header .header .top_header ul li:last-child {
+          margin-right: -12px; }
+      header .header .top_header ul.nav li a {
+        color: #fff;
+        font-size: 11pt;
+        padding: 5px 16px; }
+        header .header .top_header ul.nav li a:active, header .header .top_header ul.nav li a:hover, header .header .top_header ul.nav li a:focus {
           background: -webkit-gradient(linear, left bottom, left top, from(#445058), to(#384249));
           background: -webkit-linear-gradient(bottom, #445058, #384249);
           background: linear-gradient(to top, #445058, #384249);
@@ -47,82 +39,135 @@ header {
                   border-radius: 30px;
           border-top: 1px solid #343d43;
           border-bottom: 1px solid #66727b; }
-    header .header .header_bottom {
-      margin-top: 59px; }
-      header .header .header_bottom img {
-        width: 90%; }
-      header .header .header_bottom h1 {
-        font-size: 35.5pt;
-        font-weight: bold;
-        margin-top: 67px;
-        margin-bottom: 11px;
-        color: #fff;
+      header .header .top_header ul.nav-pills li.active a {
+        background-color: inherit;
+        background: -webkit-gradient(linear, left bottom, left top, from(#445058), to(#384249));
+        background: -webkit-linear-gradient(bottom, #445058, #384249);
+        background: linear-gradient(to top, #445058, #384249);
+        -webkit-border-radius: 30px;
+                border-radius: 30px;
+        border-top: 1px solid #343d43;
+        border-bottom: 1px solid #66727b; }
+  header .header .header_bottom {
+    margin-top: 59px; }
+    header .header .header_bottom img {
+      width: 82%; }
+    header .header .header_bottom h1 {
+      font-size: 35.5pt;
+      font-weight: bold;
+      margin-top: 67px;
+      margin-bottom: 11px;
+      color: #fff;
+      letter-spacing: 0.2px; }
+    header .header .header_bottom p {
+      color: #969798;
+      line-height: 25px;
+      margin-bottom: 47px; }
+      header .header .header_bottom p:nth-child(2) {
+        color: #bcbec0;
+        margin-bottom: 13px;
         letter-spacing: 0.2px; }
-      header .header .header_bottom p {
-        color: #969798;
-        line-height: 25px;
-        margin-bottom: 47px; }
-        header .header .header_bottom p:nth-child(2) {
-          color: #bcbec0;
-          margin-bottom: 13px;
-          letter-spacing: 0.2px; }
-        header .header .header_bottom p:last-child {
-          color: #fff;
-          margin-left: 10px;
-          margin-top: 13px; }
-      header .header .header_bottom .button {
-        width: 200px;
-        margin: auto; }
-        header .header .header_bottom .button input {
-          border: none;
-          background: -webkit-gradient(linear, left bottom, left top, from(#378acd), to(#439ed5));
-          background: -webkit-linear-gradient(bottom, #378acd, #439ed5);
-          background: linear-gradient(to top, #378acd, #439ed5);
-          font-size: 10.5pt;
-          font-weight: bold;
-          color: #fff;
-          padding: 14px 44px;
-          -webkit-border-radius: 30px;
-                  border-radius: 30px;
-          position: relative;
-          border-top: 1px solid #a0cfea;
-          border-bottom: 1px solid #529ad4;
-          -webkit-box-shadow: 0 0 0 1px #216ca0;
-                  box-shadow: 0 0 0 1px #216ca0; }
-          header .header .header_bottom .button input + div {
-            -webkit-box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.73);
-                    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.73); }
-          header .header .header_bottom .button input:focus {
-            outline: none; }
-      header .header .header_bottom a {
+      header .header .header_bottom p:last-child {
         color: #fff;
-        padding-left: 25px;
-        margin-left: 12px;
-        border-bottom: 1px solid #fff;
-        background: url(../img/icons/tv.png) no-repeat 1px 1px; }
-        header .header .header_bottom a:hover {
-          text-decoration: none; }
-  header .header_icons {
-    background: -webkit-gradient(linear, left bottom, left top, from(#e6e6e6), to(#f1f1f1));
-    background: -webkit-linear-gradient(bottom, #e6e6e6, #f1f1f1);
-    background: linear-gradient(to top, #e6e6e6, #f1f1f1);
-    border-top: 1px solid #5a5a5a;
-    border-bottom: 1px solid #c3c3c3; }
-    header .header_icons ul {
-      padding: 20px 0px 14px 0px; }
-      header .header_icons ul li {
-        float: left; }
-        header .header_icons ul li:nth-child(1) {
-          margin-right: 13%; }
-        header .header_icons ul li:nth-child(2) {
-          margin-right: 17%; }
-        header .header_icons ul li:nth-child(3) {
-          margin-right: 16.5%;
-          margin-top: 2px; }
-        header .header_icons ul li:nth-child(4) {
-          margin-top: -2px;
-          margin-right: 16.8%; }
-        header .header_icons ul li:nth-child(5) {
-          margin-right: 0; }
-        header .header_icons ul li i {
-          display: block; }
+        margin-left: 10px;
+        margin-top: 13px; }
+    header .header .header_bottom .button {
+      width: 200px;
+      margin: auto; }
+      header .header .header_bottom .button input {
+        border: none;
+        background: -webkit-gradient(linear, left bottom, left top, from(#378acd), to(#439ed5));
+        background: -webkit-linear-gradient(bottom, #378acd, #439ed5);
+        background: linear-gradient(to top, #378acd, #439ed5);
+        font-size: 10.5pt;
+        font-weight: bold;
+        color: #fff;
+        padding: 14px 44px;
+        -webkit-border-radius: 30px;
+                border-radius: 30px;
+        position: relative;
+        border-top: 1px solid #a0cfea;
+        border-bottom: 1px solid #529ad4;
+        -webkit-box-shadow: 0 0 0 1px #216ca0;
+                box-shadow: 0 0 0 1px #216ca0; }
+        header .header .header_bottom .button input + div {
+          -webkit-box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.73);
+                  box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.73); }
+        header .header .header_bottom .button input:focus {
+          outline: none; }
+    header .header .header_bottom a {
+      color: #fff;
+      padding-left: 25px;
+      margin-left: 12px;
+      border-bottom: 1px solid #fff;
+      background: url(../img/icons/tv.png) no-repeat 1px 1px; }
+      header .header .header_bottom a:hover {
+        text-decoration: none; }
+
+header .header_icons {
+  background: -webkit-gradient(linear, left bottom, left top, from(#e6e6e6), to(#f1f1f1));
+  background: -webkit-linear-gradient(bottom, #e6e6e6, #f1f1f1);
+  background: linear-gradient(to top, #e6e6e6, #f1f1f1);
+  border-top: 1px solid #5a5a5a;
+  border-bottom: 1px solid #c3c3c3; }
+  header .header_icons ul {
+    padding: 20px 0px 14px 0px; }
+    header .header_icons ul li {
+      float: left; }
+      header .header_icons ul li:nth-child(1) {
+        margin-right: 13%; }
+      header .header_icons ul li:nth-child(2) {
+        margin-right: 17%; }
+      header .header_icons ul li:nth-child(3) {
+        margin-right: 16.5%;
+        margin-top: 2px; }
+      header .header_icons ul li:nth-child(4) {
+        margin-top: -2px;
+        margin-right: 16.8%; }
+      header .header_icons ul li:nth-child(5) {
+        margin-right: 0; }
+      header .header_icons ul li i {
+        display: block; }
+
+main {
+  margin-bottom: 200px; }
+  main .block_info {
+    text-align: center; }
+    main .block_info .img {
+      border: 5px solid #8395a2;
+      -webkit-border-radius: 74px;
+              border-radius: 74px;
+      padding: 31px 14px;
+      width: 134px;
+      margin: 95px auto 28px; }
+      main .block_info .img i {
+        display: block;
+        margin: auto; }
+    main .block_info h2 {
+      color: #4b5a65;
+      font-size: 15pt;
+      margin-bottom: 12px; }
+    main .block_info p {
+      color: #a4a4a4;
+      font-size: 10.125pt;
+      margin-bottom: 48px;
+      line-height: 18px;
+      letter-spacing: -0.3px; }
+    main .block_info a {
+      border: none;
+      background: -webkit-gradient(linear, left bottom, left top, from(#378acd), to(#439ed5));
+      background: -webkit-linear-gradient(bottom, #378acd, #439ed5);
+      background: linear-gradient(to top, #378acd, #439ed5);
+      font-size: 10.5pt;
+      font-weight: bold;
+      color: #fff;
+      padding: 10px 20px;
+      -webkit-border-radius: 5px;
+              border-radius: 5px;
+      border-top: 1px solid #a0cfea;
+      border-bottom: 1px solid #529ad4;
+      -webkit-box-shadow: 0 0 0 1px #216ca0;
+              box-shadow: 0 0 0 1px #216ca0; }
+      main .block_info a:focus, main .block_info a:hover {
+        color: #fff;
+        text-decoration: none; }
