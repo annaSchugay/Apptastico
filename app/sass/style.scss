@@ -5,15 +5,6 @@
 	url(/fonts/arial.ttf)
 }
 
-// @mixin flexible {
-// 	font-family: $font-family;
-// 	display: flex;
-// 	flex-direction: row;
-// 	flex-wrap: wrap;
-// 	justify-content: space-between;
-// 	align-items: stretch;
-// }
-
 ul:after,
 ul:before,
 li:after,
@@ -241,12 +232,6 @@ main {
 		}
 		.owl-item {
 			width: 245px;
-			.item {
-				text-align: center;
-				img {
-					text-align: center;
-				}
-			}
 		}
 		.owl-controls{
 			.owl-prev, .owl-next {
@@ -293,7 +278,6 @@ main {
 // aside
 
 aside {
-	margin-bottom: 200px;
 	a {
 		color: #3c92d0;
 		font-size: 10pt;
@@ -325,7 +309,7 @@ aside {
 		line-height: 23px;
 	}
 	.blog {
-		margin-bottom: 60px;
+		margin-bottom: 58px;
 		.blog_block {
 			margin-bottom: 22px;
 			.img {
@@ -347,6 +331,7 @@ aside {
 	}
 
 	.twitter {
+		margin-bottom: 60px;
 		p {
 			margin: -6px 0 24.5px 0;
 			span {
@@ -355,6 +340,27 @@ aside {
 			time {
 				margin-top:5px;
 			}
+		}
+	}
+}
+
+// footer
+
+footer {
+	border-top: 1px solid #e8e8e8;
+	p {
+		color: #8a8a8a;
+		font-size: 10pt;
+		padding: 21px 0 33px 0;
+
+		float: left;
+	}
+	ul {
+		float: right;
+		padding: 14px 0 15px 0;
+		li {
+			float: right;
+			margin-left: 12px;
 		}
 	}
 }
