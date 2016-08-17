@@ -94,3 +94,11 @@
 	}
 
 }
+
+@media (max-width: 320px) {
+
+	aside .blog_block h3 {
+		font-size: 12pt;
+	}
+
+}

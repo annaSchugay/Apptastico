@@ -223,14 +223,16 @@ aside {
   margin-bottom: 200px; }
   aside a {
     color: #3c92d0;
-    font-size: 10pt; }
+    font-size: 10pt;
+    margin-bottom: 60px; }
     aside a:hover, aside a:focus {
       color: #3c92d0; }
   aside time {
     color: #b0b0b0;
     font-size: 8pt;
     letter-spacing: 0.3px;
-    line-height: 15px; }
+    line-height: 15px;
+    display: block; }
   aside h2 {
     font-size: 16pt;
     padding-top: 3px;
@@ -239,23 +241,30 @@ aside {
     aside h2 i {
       float: left;
       margin-right: 8px; }
-  aside .blog_block {
-    margin-bottom: 22px; }
-    aside .blog_block .img {
-      border: 3px solid #fff;
-      -webkit-box-shadow: 1px 2px 5px -1px #b2b2b2;
-              box-shadow: 1px 2px 5px -1px #b2b2b2;
-      height: 101px; }
-      aside .blog_block .img img {
-        width: 100%; }
-    aside .blog_block h3 {
-      color: #5c5c5c;
-      color: #5c5c5c;
-      line-height: 11px;
-      font-size: 13pt;
-      margin-bottom: 8px;
-      letter-spacing: -1px; }
-    aside .blog_block p {
-      color: #888;
-      font-size: 10pt;
-      line-height: 23px; }
+  aside p {
+    color: #888;
+    font-size: 10pt;
+    line-height: 23px; }
+  aside .blog {
+    margin-bottom: 60px; }
+    aside .blog .blog_block {
+      margin-bottom: 22px; }
+      aside .blog .blog_block .img {
+        border: 3px solid #fff;
+        -webkit-box-shadow: 1px 2px 5px -1px #b2b2b2;
+                box-shadow: 1px 2px 5px -1px #b2b2b2; }
+        aside .blog .blog_block .img img {
+          width: 100%; }
+      aside .blog .blog_block h3 {
+        color: #5c5c5c;
+        color: #5c5c5c;
+        line-height: 11px;
+        font-size: 13pt;
+        margin-bottom: 8px;
+        letter-spacing: -1px; }
+  aside .twitter p {
+    margin: -6px 0 24.5px 0; }
+    aside .twitter p span {
+      color: #515151; }
+    aside .twitter p time {
+      margin-top: 5px; }
