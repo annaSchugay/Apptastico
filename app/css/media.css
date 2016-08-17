@@ -69,6 +69,14 @@
 	} 
 }
 
+@media (max-width: 395px) {
+
+	header .header_icons ul {
+		display: none;
+	}
+
+}
+
 @media (max-width: 370px) {
 
 	header .header .top_header ul li {
