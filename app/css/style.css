@@ -16,6 +16,9 @@ li:after {
 body {
   font-family: Arial; }
 
+i {
+  display: block; }
+
 header .header {
   background: url(../img/bg.png); }
   header .header .top_header {
@@ -126,11 +129,9 @@ header .header_icons {
         margin-right: 16.8%; }
       header .header_icons ul li:nth-child(5) {
         margin-right: 0; }
-      header .header_icons ul li i {
-        display: block; }
 
 main {
-  margin-bottom: 200px; }
+  margin-bottom: 114px; }
   main .block_info {
     text-align: center; }
     main .block_info .img {
@@ -141,7 +142,6 @@ main {
       width: 134px;
       margin: 95px auto 28px; }
       main .block_info .img i {
-        display: block;
         margin: auto; }
     main .block_info h2 {
       color: #4b5a65;
@@ -179,7 +179,6 @@ main {
       letter-spacing: -0.5px;
       margin-bottom: 20px; }
       main .slide h2 i {
-        display: block;
         float: left;
         margin-right: 8px;
         margin-top: -3px; }
@@ -219,3 +218,44 @@ main {
         main .slide .carousel-control.right span {
           display: block;
           margin: 7px 13px; }
+
+aside {
+  margin-bottom: 200px; }
+  aside a {
+    color: #3c92d0;
+    font-size: 10pt; }
+    aside a:hover, aside a:focus {
+      color: #3c92d0; }
+  aside time {
+    color: #b0b0b0;
+    font-size: 8pt;
+    letter-spacing: 0.3px;
+    line-height: 15px; }
+  aside h2 {
+    font-size: 16pt;
+    padding-top: 3px;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px; }
+    aside h2 i {
+      float: left;
+      margin-right: 8px; }
+  aside .blog_block {
+    margin-bottom: 22px; }
+    aside .blog_block .img {
+      border: 3px solid #fff;
+      -webkit-box-shadow: 1px 2px 5px -1px #b2b2b2;
+              box-shadow: 1px 2px 5px -1px #b2b2b2;
+      height: 101px; }
+      aside .blog_block .img img {
+        width: 100%; }
+    aside .blog_block h3 {
+      color: #5c5c5c;
+      color: #5c5c5c;
+      line-height: 11px;
+      font-size: 13pt;
+      margin-bottom: 8px;
+      letter-spacing: -1px; }
+    aside .blog_block p {
+      color: #888;
+      font-size: 10pt;
+      line-height: 23px; }

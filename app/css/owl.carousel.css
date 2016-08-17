@@ -43,7 +43,6 @@
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div{
 	cursor: pointer;
-	background: #000;
 }
 .owl-controls {
 	-webkit-user-select: none;
