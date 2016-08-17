@@ -78,7 +78,30 @@
 	}
 	header .header_icons ul li:nth-child(4) {
 		margin-right: 2px; 
-	} 
+	}
+
+	footer ul {
+		justify-content: space-around;
+	}
+
+	footer p {
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 395px) {
+
+	header .header_icons ul {
+		display: none;
+}
+
+@media (max-width: 395px) {
+
+	header .header_icons ul {
+		display: none;
+	}
+
 }
 
 @media (max-width: 370px) {
