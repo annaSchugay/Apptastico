@@ -355,6 +355,8 @@ footer {
 	ul {
 		font-family: $font-family;
 		display: flex;
+		// display: -webkit-box;
+		// -webkit-box-flex-direction: row;
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: flex-end;

@@ -82,6 +82,7 @@
 
 	footer ul {
 		justify-content: space-around;
+		/*-webkit-justify-content: space-around;*/
 	}
 
 	footer p {
@@ -119,7 +120,17 @@
 @media (max-width: 336px) {
 
 	aside .blog .blog_block h3 {
-		font-size: 12pt;
+		font-size: 11pt;
+	}
+
+}
+
+@media (max-width: 298px) {
+
+header .header .top_header ul.nav li a {
+		font-size: 9pt;
+		margin-right: 0;
+
 	}
 
 }
